@@ -12,9 +12,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <div className="App min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      <div className="App min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 overflow-x-hidden w-full max-w-full">
         <Navbar />
-        <main>
+        <main className="overflow-x-hidden w-full max-w-full">
           <Routes>
             <Route path="/" element={
               <>
